@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+}
+.counter {
+  display: flex;
+  flex: 1;
+}
+.display,
+.control {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.control {
+  flex-direction: column;
+  gap: 5px;
+  font-size: 5rem;
+}
+
+.display {
+  font-size: 20rem;
+  border: 2px solid black;
+  margin: 50px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+.up,
+.down,
+.reset {
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: beige;
+  border-radius: 10px;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  width: 30%;
+  text-align: center;
+}
